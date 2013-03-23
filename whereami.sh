@@ -5,4 +5,4 @@ FILE=$(readlink "$PWD"/"$0" || echo $0)
 DIR=$(cd $(dirname "$DIR"/"$FILE"); pwd -P)
 FILE="$DIR"/"$FILE"
 echo DIR="$DIR"
-echo FLIE="$FILE"
+echo FILE="$FILE"
